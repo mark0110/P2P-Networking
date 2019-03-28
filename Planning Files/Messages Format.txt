@@ -7,7 +7,7 @@ Send Message Format(From Client to DHT Server):
 1;
 
 Return Message Format(From DHT Server to Client):
-1;/*DHT Server ID*/;/*DHT Server IP Address*/
+1;/*number of dht servers*/;/*DHT Server ID*/;/*DHT Server IP Address*/
 
 
 After acquiring all of the server IPs, the client will send the name of the content it holds and its IP to the DHT corrosponding to the Hashed value:
@@ -25,7 +25,7 @@ Send Message Format(From Client to Server):
 3;/*content name*/
 
 Recieve Message Format(From Server to Client):
-3;/*content name*/;/*ip of client with content*/ || 404 Content Not Found
+3;/*content name*/;/*ip of client with content*/ || "404 Content Not Found"
 
 When the Client exits, its IP is removed from all DHT Servers.
 The client sends one packet to one DHT Server and the contacted server must forward the packet to the rest of the servers.
