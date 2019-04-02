@@ -13,7 +13,7 @@ public class udptestserver
     public static void main(String[] args) throws IOException
     {
         // Step 1 : Create a socket to listen at port 1234
-        DatagramSocket ds = new DatagramSocket(20101);
+        DatagramSocket ds = new DatagramSocket(20420);
         byte[] receive = new byte[65535];
 
         DatagramPacket DpReceive = null;
@@ -25,12 +25,11 @@ public class udptestserver
 
             // Step 3 : revieve the data in byte buffer.
             ds.receive(DpReceive);
-
-            System.out.println("Client:-" + data(receive));
+            InetAddress address = DpReceive.getAddress();
+            System.out.println("Client:" + data(receive));
+            String res = "Hello from me the server, your ip is: " + address.toString();
 
             // Exit the server if the client sends "bye"
-
-                break;
         }
     }
 
