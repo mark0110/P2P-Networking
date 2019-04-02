@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static ServerInstance server;
+
     public static void main(String[] args) throws IOException {
 
         InetAddress IPaddress = InetAddress.getLocalHost();
@@ -17,13 +19,16 @@ public class Main {
         int id = scan.nextInt();
         System.out.print("Enter successor IP: ");
         String sucIP = scan.next();
-        System.out.print("Enter predecessor IP: ");
-        String preIP = scan.next();
 
-        Hashtable<Integer, String> h = new Hashtable<Integer, String>();
+        server = new ServerInstance(id, sucIP, IPaddress.getHostAddress());
 
-        Server server = new Server(5000);
+        Thread udp = new ThreadUDP();
+        udp.start();
 
+        Thread tcp = new ThreadTCP();
+        tcp.start();
+
+        System.out.println("test");
     }
 
 }

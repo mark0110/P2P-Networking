@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829aa1cd-dbaf-4cc0-a186-6afbabba42b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Documentation/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/txt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Planning Files/Plan.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Planning Files/Plan.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Files/DHT.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Project Files/DHT.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Files/P2P2_logistics.2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project Files/P2P2_logistics.2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Files/kr6-151-156.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Project Files/kr6-151-156.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Files/project slides.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Project Files/project slides.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Files/rfc2616.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project Files/rfc2616.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runnable Application/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Runnable Application/txt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/cutiedoggo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/cutiedoggo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/doggo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/doggo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/kittyuno.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/kittyuno.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/tesla-cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/Photos/tesla-cat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/bin/app/udptestserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/bin/app/udptestserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/cutiedoggo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/cutiedoggo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/doggo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/doggo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/kittyuno.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/kittyuno.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/tesla-cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/Photos/tesla-cat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/Client Server/src/app/udptestserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/Client Server/src/app/udptestserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/txt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planning Files/Messages Format.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Planning Files/Messages Format.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +60,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +118,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -205,16 +177,20 @@
       <workItem from="1553210138112" duration="388000" />
       <workItem from="1553210641147" duration="537000" />
       <workItem from="1553211259561" duration="47000" />
+      <workItem from="1554162391292" duration="16000" />
+      <workItem from="1554162410218" duration="4000" />
+      <workItem from="1554244109741" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="972000" />
+    <option name="totallyTimeSpent" value="997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="28" width="1400" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,13 +241,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
