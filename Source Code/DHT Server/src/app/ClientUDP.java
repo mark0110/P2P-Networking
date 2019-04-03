@@ -5,6 +5,7 @@ public class ClientUDP {
 
     public ClientUDP(String msg) {
         try {
+            System.out.println(msg);
             String[] arr = msg.split(";");
             String host = arr[1];
             int port = 20420;

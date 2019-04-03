@@ -3,7 +3,7 @@ import java.net.InetAddress;
 import java.util.Hashtable;
 import java.util.Scanner;
 
-public class Main {
+public class DHTServer {
 
     public static ServerInstance server;
 
