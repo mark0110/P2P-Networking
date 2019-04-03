@@ -40,12 +40,10 @@ public class ThreadTCP extends Thread{
                 if (DHTServer.server.h.containsValue(arr[1])) {
                     keys = DHTServer.server.h.keySet();
                     it = keys.iterator();
-                    for (int i = 0; i < DHTServer.server.h.size(); i++) {
+                    while(it.hasNext()) {
                         temp = it.next();
-                        //System.out.println(h.get(keys.iterator().next()).toString());
                         if (DHTServer.server.h.get(temp).equals(arr[1])) {
                             it.remove();
-                            //DHTServer.server.h.remove(temp);
                         }
                     }
                 }
