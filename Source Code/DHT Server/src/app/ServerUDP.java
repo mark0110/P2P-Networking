@@ -13,12 +13,12 @@ public class ServerUDP{
     }
 
     ServerUDP(){
-        this.buffer = new byte[2048];
+        this.buffer = new byte[8192];
     }
 
     public void start(){
         try {
-
+            System.out.println("UDP started");
             dsocket = new DatagramSocket(port);
             packet = new DatagramPacket(buffer, buffer.length);
 

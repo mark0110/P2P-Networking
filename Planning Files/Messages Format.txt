@@ -4,7 +4,7 @@ On initialization, the client sends a message to the DHT Server to get the IP of
 DHT Server shall return the IDs and IPs of the other servers.
 
 Send Message Format(From Client to DHT Server):
-1;
+1;/*IP address of source*/
 
 Return Message Format(From DHT Server to Client):
 1;/*ip of source*/;/*number of dht servers*/;/*DHT Server ID*/;/*DHT Server IP Address*/
