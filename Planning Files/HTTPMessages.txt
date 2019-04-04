@@ -1,0 +1,20 @@
+HTTP Request Message to Server:
+GET HTTP/1.1
+Host: (content name)
+
+HTTP 200 Response with Content:
+
+HTTP/1.1 200 OK
+Content: (content)
+
+HTTP Error 400:
+
+HTTP/1.1 400 Bad Request
+
+HTTP Error 404:
+
+HTTP/1.1 404 Not Found
+
+HTTP Error 505:
+
+HTTP/1.1 505 HTTP Version Not Supported
