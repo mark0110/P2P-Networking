@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829aa1cd-dbaf-4cc0-a186-6afbabba42b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/P2P-Network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P2P-Network.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Planning Files/Messages Format.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Planning Files/Messages Format.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ClientUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/DHTServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ThreadTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ThreadUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="240">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -60,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,27 +87,6 @@
               <item name="P2P-Network" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2P-Network" type="462c0819:PsiDirectoryNode" />
               <item name="Source Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Client Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2P-Network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-Network" type="462c0819:PsiDirectoryNode" />
-              <item name="Source Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Client Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2P-Network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-Network" type="462c0819:PsiDirectoryNode" />
-              <item name="Source Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Client Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2P-Network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2P-Network" type="462c0819:PsiDirectoryNode" />
-              <item name="Source Code" type="462c0819:PsiDirectoryNode" />
               <item name="DHT Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -112,25 +102,26 @@
               <item name="Source Code" type="462c0819:PsiDirectoryNode" />
               <item name="DHT Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553211154732" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554577286098" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,22 +136,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
+    <configuration name="DHTServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DHTServer" />
       <module name="P2P-Network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.DHTServer" />
       </list>
     </recent_temporary>
   </component>
@@ -180,17 +165,18 @@
       <workItem from="1554162391292" duration="16000" />
       <workItem from="1554162410218" duration="4000" />
       <workItem from="1554244109741" duration="5000" />
+      <workItem from="1554345292644" duration="678000" />
+      <workItem from="1554576376119" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="997000" />
+    <option name="totallyTimeSpent" value="2553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="28" width="1400" height="731" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -199,7 +185,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,7 +194,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073636" side_tool="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -226,21 +212,31 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/DHT.java" />
-    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java" />
     <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/app/DHTServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
