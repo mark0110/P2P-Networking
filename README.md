@@ -31,15 +31,49 @@ No special installation or set-up is necessary. Be prepaid to use your command l
 
 ### Initializing DHT Servers
 
+To start the peer-to-peer network you first have to initialize 1 or more DHT servers on the network that will store the IP addresses of the clients.
 
-To start the peer-to-peer network you first have to initialize 1 or more DHT server on the network that will store the IP addresses of the clients.
+In order to do so you will need to locate the DHT source files in the directories as seen above and run the following lines on the command line of your machine. Please make sure that your command line is pointed to the DHT Server directory.
 
-In order to do so you w
-The instructions below will help you
+```
+javac DHTServer.java
+java DHTServer
+```
 
+Executing the above 2 lines will compile the java application and run it. The first line that appears will be the IP address of your local machine. The second line will ask you to enter the ID number for the give DHT server. The numbering for the servers begins with 1. Once the ID is entered, the application will ask you to enter the IP address of the IP address of the successor DHT server. In the case of multiple DHT servers, please make sure you assign the ID's in sequence and specify the correct IP for the next DHT server. If you are running only one DHT server then enter your personal IP address in the successor IP field.
 
+Once all of the above information is entered, the output should look like this
 
-Authors:
-Michael Teitelbaum
-Mark Volfson
-Elena Zubko
+```
+192.168.2.12
+Enter ID: 1
+Enter successor server IP: 192.168.2.12
+UDP server has been successfully initialized!
+TCP server has been successfully initialized!
+
+All systems working properly!
+```
+
+Next step is for each of the client(s) (user(s) for the P2P network) to initialize them selves in the network.
+
+### Initializing Each User
+
+There can be an infinite amount of users in the network. To begin using this application, each user has to initialize themselves on the network. This is done by running a JAVA program on each clients local machine.
+
+Each client needs to follow the below steps to start exchanging files
+
+```
+[These lines need to be ran to start each client]
+```
+
+The output of the above initialization should look as following
+
+```
+[the output of the initialization]
+```
+
+## Authors
+
+* [Michael Teitelbaum](https://www.linkedin.com/in/miketeit/)
+* [Mark Volfson](https://www.linkedin.com/in/mvolfson/)
+* [Elena Zubko](https://www.linkedin.com/in/elena-zubko-1a88b0140/)
