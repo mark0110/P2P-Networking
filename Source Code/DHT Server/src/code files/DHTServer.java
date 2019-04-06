@@ -3,6 +3,7 @@ import java.net.InetAddress;
 import java.util.Hashtable;
 import java.util.Scanner;
 
+//Main class to run. Initializes 2 threads, one for UPD and the other for TCP
 public class DHTServer {
 
     public static ServerInstance server;
@@ -17,7 +18,7 @@ public class DHTServer {
         Scanner scan = new Scanner(System.in);
 
         int id = scan.nextInt();
-        System.out.print("Enter successor IP: ");
+        System.out.print("Enter successor server IP: ");
         String sucIP = scan.next();
 
         server = new ServerInstance(id, sucIP, IPaddress.getHostAddress());
@@ -25,10 +26,13 @@ public class DHTServer {
         Thread udp = new ThreadUDP();
         udp.start();
 
+        System.out.println("UDP server has been successfully initialized!");
+
         Thread tcp = new ThreadTCP();
         tcp.start();
 
-        System.out.println("test");
+        System.out.println("TCP server has been successfully initialized!\n\nAll systems working properly!");
+
     }
 
 }

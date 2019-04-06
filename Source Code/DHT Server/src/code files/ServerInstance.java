@@ -1,5 +1,6 @@
 import java.util.Hashtable;
 
+//Object for each server to keep track of the parameters
 public class ServerInstance {
 
     int id;

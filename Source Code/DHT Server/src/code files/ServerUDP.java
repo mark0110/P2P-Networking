@@ -1,7 +1,10 @@
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
+//class to initialize the UDP server for the program to accept UDP requests
 public class ServerUDP{
+
+    //initializing of variables
     int port = 20420;
     DatagramSocket dsocket;
     byte[] buffer;
@@ -16,9 +19,9 @@ public class ServerUDP{
         this.buffer = new byte[8192];
     }
 
+    //starting the server
     public void start(){
         try {
-            System.out.println("UDP started");
             dsocket = new DatagramSocket(port);
             packet = new DatagramPacket(buffer, buffer.length);
 

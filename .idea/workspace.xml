@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829aa1cd-dbaf-4cc0-a186-6afbabba42b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/P2P-Network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P2P-Network.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ClientUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/DHTServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ServerUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ThreadTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/ThreadUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ClientTCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ClientTCP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ClientUDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ClientUDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/DHTServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/DHTServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerTCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerTCP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerUDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ServerUDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ThreadTCP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ThreadTCP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ThreadUDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/app/production/P2P-Network/ThreadUDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,30 +29,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.class">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +124,14 @@
       <list>
         <option value="$PROJECT_DIR$/Source Code/DHT Server/src/DHT.java" />
         <option value="$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java" />
+        <option value="$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java" />
       </list>
     </option>
   </component>
@@ -114,14 +190,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554577421125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554578659528" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,17 +247,26 @@
       <workItem from="1554162410218" duration="4000" />
       <workItem from="1554244109741" duration="5000" />
       <workItem from="1554345292644" duration="678000" />
-      <workItem from="1554576376119" duration="878000" />
+      <workItem from="1554576376119" duration="2217000" />
     </task>
+    <task id="LOCAL-00001" summary="modified files">
+      <created>1554577342022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554577342022</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2553000" />
+    <option name="totallyTimeSpent" value="3892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="28" width="1400" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -190,13 +275,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.3286385" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992636" weight="0.3286385" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073636" side_tool="true" weight="0.3286385" />
@@ -215,16 +300,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified files" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified files" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/DHT.java" />
     <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/app/App.java" />
-    <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -238,11 +346,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Source Code/Client Server/src/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientTCP.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ClientUDP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerUDP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ServerTCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadTCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/ThreadUDP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source Code/DHT Server/src/code files/DHTServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

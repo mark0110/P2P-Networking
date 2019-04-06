@@ -1,11 +1,15 @@
 import java.io.*;
 import java.net.*;
 
+//Class to send out a String using a UDP connection
 public class ClientUDP {
 
+    //constructor
+    //takes in the message that needs to be sent
     public ClientUDP(String msg) {
+
+        //sending the packet with the String msg to the specified IP and port using UDP
         try {
-            System.out.println(msg);
             String[] arr = msg.split(";");
             String host = arr[1];
             int port = 20420;
