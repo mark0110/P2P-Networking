@@ -5,7 +5,7 @@ public class TestServer {
         Server server = new Server(20420);
         new Thread(server).start();
         try{
-            Thread.sleep(20 * 1000);
+            Thread.sleep(100 * 1000);
         } catch (InterruptedException e){
             e.printStackTrace();
         }
