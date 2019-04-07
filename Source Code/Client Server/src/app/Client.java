@@ -58,7 +58,6 @@ public class Client {
 
     public void informAndUpdate() {
         try {
-            //TODO: Change to shareDir
             File folder = new File(shareDir);
             File[] listOfFiles = folder.listFiles();
             for (int i = 0; i < listOfFiles.length; i++) {
@@ -137,12 +136,12 @@ public class Client {
             datagramSocket.send(packet);
             datagramSocket.close();
             if (message.startsWith("1") || message.startsWith("3")) {
-                DatagramSocket reciever = new DatagramSocket(20420);
+                DatagramSocket receiver = new DatagramSocket(20420);
                 byte[] buffer = new byte[2048];
                 DatagramPacket recPacket = new DatagramPacket(buffer, buffer.length);
-                reciever.receive(recPacket);
+                receiver.receive(recPacket);
                 String response = new String(recPacket.getData(), 0, recPacket.getLength());
-                reciever.close();
+                receiver.close();
                 return response;
             }
         } catch (IOException e) {
