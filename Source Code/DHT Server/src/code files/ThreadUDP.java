@@ -39,8 +39,10 @@ public class ThreadUDP extends Thread {
             case 2:
                 DHTServer.server.h.put(arr[2], arr[3]);
                 //udp = new ClientUDP("2;"+arr[1]);
+                System.out.println(DHTServer.server.h.toString());
                 break;
             case 3:
+                System.out.println(msg);
                 if (!DHTServer.server.h.containsKey(arr[2])) {
                     udp = new ClientUDP(msg + ";" + "404 Content Not Found");
                     break;
@@ -61,6 +63,7 @@ public class ThreadUDP extends Thread {
                         }
                     }
                 }
+                System.out.println(DHTServer.server.h.toString());
                 msg = msg + ";" + DHTServer.server.ip;
                 tcp = new ClientTCP(DHTServer.server.ipSuc, msg);
                 break;
