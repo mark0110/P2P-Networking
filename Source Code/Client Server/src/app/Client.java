@@ -39,7 +39,7 @@ public class Client {
         for (int i = 0; i < name.length(); i++) {
             hashValue += (int) name.charAt(i);
         }
-        hashValue = hashValue % 4;
+        hashValue = hashValue % 1;
         return hashValue;
     }
 
@@ -106,7 +106,7 @@ public class Client {
             switch (response) {
                 case "200": {
                     BufferedImage image = ImageIO.read(input);
-                    File file = new File(saveDir + "\\" + contentName);
+                    File file = new File(saveDir + File.separator + contentName);
                     ImageIO.write(image, "jpg", file);
                     return "200";
                 }

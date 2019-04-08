@@ -74,14 +74,12 @@ public class RequestGUI implements Initializable {
         client = new Client(myIp, dhtID, dhtIP, shareDir, saveDir);
         client.initialize();
         client.informAndUpdate();
-        Server server = new Server(20420);
+        Server server = new Server(20420, shareDir);
         new Thread(server).start();
     }
 
     public void stop() {
-        System.out.println("This Printed!");
         client.exit();
-        System.out.println("This Too!!");
     }
 
 }

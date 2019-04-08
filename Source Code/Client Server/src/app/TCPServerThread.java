@@ -11,10 +11,12 @@ public class TCPServerThread implements Runnable {
     protected String serverText = null;
     private DataInputStream input;
     private DataOutputStream output;
+    private String shareDir;
 
-    public TCPServerThread(Socket socket, String serverText) {
+    public TCPServerThread(Socket socket, String serverText, String shareDir) {
         this.socket = socket;
         this.serverText = serverText;
+        this.shareDir = shareDir;
     }
 
     public void run() {
@@ -57,7 +59,8 @@ public class TCPServerThread implements Runnable {
                     e1.printStackTrace();
                 }
             }
-            BufferedImage image = ImageIO.read(new File("./src/app/Photos/" + file));
+            System.out.println(shareDir + File.pathSeparator + file[3]);
+            BufferedImage image = ImageIO.read(new File(shareDir + File.separator + file[3]));
             output.writeUTF("200");
             ImageIO.write(image, "jpg", output);
             output.close();

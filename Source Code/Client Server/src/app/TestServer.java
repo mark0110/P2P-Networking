@@ -2,7 +2,7 @@ package app;
 
 public class TestServer {
     public static void main(String[] args){
-        Server server = new Server(20420);
+        Server server = new Server(20420, "test");
         new Thread(server).start();
         try{
             Thread.sleep(100 * 1000);
