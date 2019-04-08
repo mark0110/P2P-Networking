@@ -9,9 +9,11 @@ public class Server implements Runnable{
     private int port = 20420;
     private boolean stopped = false;
     private Thread runningThread = null;
+    private String shareDir;
 
-    public Server(int port){
+    public Server(int port, String shareDir){
         this.port = port;
+        this.shareDir = shareDir;
     }
 
     public void run(){
@@ -33,7 +35,7 @@ public class Server implements Runnable{
             }
             new Thread(
                     new TCPServerThread(
-                            clientSocket, "Multithreaded Server")
+                            clientSocket, "TCP Request Thread", shareDir)
             ).start();
         }
         System.out.println("Server Stopped.") ;
@@ -56,7 +58,7 @@ public class Server implements Runnable{
         try {
             socket = new ServerSocket(port);
         } catch (IOException e) {
-            throw new RuntimeException("Cannot open port 8080", e);
+            throw new RuntimeException("Cannot open port 20420", e);
         }
     }
 
