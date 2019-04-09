@@ -51,6 +51,7 @@ public class ThreadUDP extends Thread {
                 break;
             case 4:
                 if(msg.contains(DHTServer.server.ip)) {
+                    System.out.println("exit successful!");
                     break;
                 }
                 if (DHTServer.server.h.containsValue(arr[1])) {
