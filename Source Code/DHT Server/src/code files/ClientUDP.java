@@ -12,7 +12,7 @@ public class ClientUDP {
         try {
             String[] arr = msg.split(";");
             String host = arr[1];
-            int port = 20429;
+            int port = 20420;
 
             byte[] message = msg.getBytes();
 
