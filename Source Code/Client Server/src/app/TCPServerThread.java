@@ -59,7 +59,6 @@ public class TCPServerThread implements Runnable {
                     e1.printStackTrace();
                 }
             }
-            System.out.println(shareDir + File.pathSeparator + file[3]);
             BufferedImage image = ImageIO.read(new File(shareDir + File.separator + file[3]));
             output.writeUTF("200");
             ImageIO.write(image, "jpg", output);

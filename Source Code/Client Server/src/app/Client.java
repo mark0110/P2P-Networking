@@ -52,8 +52,6 @@ public class Client {
         for (int i = 2; i < responses.length; i = i + 2) {
             dhtServers.put(responses[i], responses[i + 1]);
         }
-        System.out.println(dhtServers);
-
     }
 
     public void informAndUpdate() {
