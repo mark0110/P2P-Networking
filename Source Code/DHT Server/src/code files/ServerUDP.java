@@ -5,7 +5,7 @@ import java.net.DatagramSocket;
 public class ServerUDP{
 
     //initializing of variables
-    int port = 20420;
+    int port = 20099;
     DatagramSocket dsocket;
     byte[] buffer;
     DatagramPacket packet;
