@@ -96,7 +96,7 @@ public class Client {
     public String getContent(String contentName, String serverIP) {
         String HTTPGetMessage = "GET HTTP/1.1 Host: " + contentName;
         try {
-            Socket socket = new Socket(serverIP, 20420);
+            Socket socket = new Socket(serverIP, 20099);
             DataOutputStream output = new DataOutputStream(socket.getOutputStream());
             DataInputStream input = new DataInputStream(socket.getInputStream());
             output.writeUTF(HTTPGetMessage);
