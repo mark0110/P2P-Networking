@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class Server implements Runnable{
     private ServerSocket socket = null;
-    private int port = 20420;
+    private int port = 20099;
     private boolean stopped = false;
     private Thread runningThread = null;
     private String shareDir;

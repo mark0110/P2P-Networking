@@ -130,7 +130,7 @@ public class Client {
         try {
             DatagramSocket datagramSocket = new DatagramSocket();
             InetAddress ip = InetAddress.getByName(address);
-            DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 20420);
+            DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 20099);
             datagramSocket.send(packet);
             datagramSocket.close();
             if (message.startsWith("1") || message.startsWith("3")) {

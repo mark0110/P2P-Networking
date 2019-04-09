@@ -37,12 +37,14 @@ public class RequestGUI implements Initializable {
             String serverIp;
             if (!name.isEmpty()) {
                 try {
+                    status.setText("Status: ");
                     serverIp = client.queryContent(name);
                     String response = client.getContent(name, serverIp);
                     if (response.equals("200")) {
                         status.setText("Status: File Successfully Downloaded!");
+                        nameField.clear();
                     } else {
-                        status.setText("Error: " + response + "Problem Downloading File");
+                        status.setText("Error: " + response + " Problem Downloading File");
                     }
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
@@ -74,7 +76,7 @@ public class RequestGUI implements Initializable {
         client = new Client(myIp, dhtID, dhtIP, shareDir, saveDir);
         client.initialize();
         client.informAndUpdate();
-        Server server = new Server(20420, shareDir);
+        Server server = new Server(20099, shareDir);
         new Thread(server).start();
     }
 
