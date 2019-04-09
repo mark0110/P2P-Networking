@@ -14,6 +14,7 @@ public class ThreadTCP extends Thread{
         while (true) {
             server = new ServerTCP();
             msg = server.getMsg();
+            System.out.println("TCP received: "+ msg);
             msgRec(msg);
             server = null;
             System.gc();
@@ -33,6 +34,7 @@ public class ThreadTCP extends Thread{
             case 1:
                 if(msg.contains(DHTServer.server.ip)) {
                     udp = new ClientUDP(msg);
+                    System.out.println("Table after init: "+ DHTServer.server.h.toString());
                     break;
                 }
                 msg = msg +";"+ DHTServer.server.id + ";" + DHTServer.server.ip;
@@ -40,6 +42,7 @@ public class ThreadTCP extends Thread{
                 break;
             case 4:
                 if(msg.contains(DHTServer.server.ip)) {
+                    System.out.println("Table after exit: "+ DHTServer.server.h.toString());
                     break;
                 }
                 if (DHTServer.server.h.containsValue(arr[1])) {

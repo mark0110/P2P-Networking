@@ -7,7 +7,7 @@ public class ClientUDP {
     //constructor
     //takes in the message that needs to be sent
     public ClientUDP(String msg) {
-        System.out.println("UDP: "+msg);
+        System.out.println("UDP sent: "+msg);
         //sending the packet with the String msg to the specified IP and port using UDP
         try {
             String[] arr = msg.split(";");

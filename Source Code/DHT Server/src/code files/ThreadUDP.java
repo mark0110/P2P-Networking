@@ -15,6 +15,7 @@ public class ThreadUDP extends Thread {
             server = new ServerUDP();
             server.start();
             msg = server.getMsg();
+            System.out.println("UDP received: "+ msg);
             msgRec(msg);
         }
     }
@@ -31,6 +32,7 @@ public class ThreadUDP extends Thread {
             case 1:
                 if(msg.contains(DHTServer.server.ip)) {
                     udp = new ClientUDP(msg);
+                    System.out.println("Table after init: "+ DHTServer.server.h.toString());
                     break;
                 }
                 msg = msg +";"+ DHTServer.server.id + ";" + DHTServer.server.ip;
@@ -38,11 +40,11 @@ public class ThreadUDP extends Thread {
                 break;
             case 2:
                 DHTServer.server.h.put(arr[2], arr[3]);
+                System.out.println("Table after adding file: "+ DHTServer.server.h.toString());
                 //udp = new ClientUDP("2;"+arr[1]);
-                System.out.println(DHTServer.server.h.toString());
+                //System.out.println(DHTServer.server.h.toString());
                 break;
             case 3:
-                System.out.println(msg);
                 if (!DHTServer.server.h.containsKey(arr[2])) {
                     udp = new ClientUDP(msg + ";" + "404 Content Not Found");
                     break;
@@ -51,7 +53,7 @@ public class ThreadUDP extends Thread {
                 break;
             case 4:
                 if(msg.contains(DHTServer.server.ip)) {
-                    System.out.println("exit successful!");
+                    System.out.println("Table after exit: "+ DHTServer.server.h.toString());
                     break;
                 }
                 if (DHTServer.server.h.containsValue(arr[1])) {
@@ -64,7 +66,6 @@ public class ThreadUDP extends Thread {
                         }
                     }
                 }
-                System.out.println(DHTServer.server.h.toString());
                 msg = msg + ";" + DHTServer.server.ip;
                 tcp = new ClientTCP(DHTServer.server.ipSuc, msg);
                 break;

@@ -11,7 +11,7 @@ public class ClientTCP {
 
     //constructor
     public ClientTCP(String address, String msg) {
-
+        System.out.println("TCP sent: "+ msg);
         //port number
         int port = 20420;
 
