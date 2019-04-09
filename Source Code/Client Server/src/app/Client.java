@@ -39,7 +39,7 @@ public class Client {
         for (int i = 0; i < name.length(); i++) {
             hashValue += (int) name.charAt(i);
         }
-        hashValue = hashValue % 1;
+        hashValue = hashValue % 4;
         return hashValue;
     }
 
