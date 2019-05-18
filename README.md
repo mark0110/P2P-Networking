@@ -81,6 +81,6 @@ Here, you can open the directories that you have chosen and put in the name of t
 
 ## Authors
 
-* [Michael Teitelbaum](https://www.linkedin.com/in/miketeit/)
 * [Mark Volfson](https://www.linkedin.com/in/mvolfson/)
-* [Elena Zubko](https://www.linkedin.com/in/elena-zubko-1a88b0140/)
+* Michael Teitelbaum
+* Elena Zubko
