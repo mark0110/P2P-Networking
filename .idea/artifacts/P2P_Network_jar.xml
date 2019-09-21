@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="P2P-Network:jar">
-    <output-path>$PROJECT_DIR$/Source Code/DHT Server/src/app/artifacts/P2P_Network_jar</output-path>
-    <root id="archive" name="P2P-Network.jar">
-      <element id="module-output" name="P2P-Network" />
-    </root>
-  </artifact>
-</component>
